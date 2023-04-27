@@ -4,6 +4,35 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: dotted 4px #ba2369;
+    background-color: #7e75d6;
   }
+
+ h1 {
+    text-align:center;
+    color: navy;
+    font-size: 200%;
+
+  }
+  img{
+    margin-top: 0;
+    display: block;
+    max-height: 700px;
+    max-width: 700px;
+    object-fit:contain;
+  }
+
+p {
+  margin-top: 0;
+}
+ p{
+  font-family:'Times New Roman', Times, serif;
+  margin-left:10px  
+ }
+
+  
+
+
+
+
+

@@ -31,7 +31,7 @@ h2{
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px white;
+  border: solid 1px rgb(230, 130, 130);
   background-color: #eaeeec;
 }
 
@@ -39,6 +39,6 @@ h2{
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px #e98282;
   background-color: #A3C9A8;
 }
