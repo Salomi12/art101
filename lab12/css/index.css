@@ -1,33 +1,30 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-
+#background {
+  background-image: url("../img/harrypotter.png");
+  background-size:cover;
+  background-position:center;
+}
 .minor-section {
   padding: 2px;
   margin-bottom: 10px;
-  background-color: #7e75d6;
+  background-color: #efcca1;
+  border:solid 2px #6a3704
 }
 
 h1 {
   text-align:center;
-  color: rgb(76, 76, 158);
+  color: rgb(1, 1, 22);
   font-size: 200%;
+  margin-bottom: 10px;
+  border: solid 2px #6a3704;
+  background-color: #efcca1;
+  
 
 }
 
-p {
-margin-top: 0;
 
-}
-
-p {
-
-border: none;
-}
-p{
-font-family:'Times New Roman', Times, serif;
-margin-left:10px  
-}
 
 
 

@@ -12,14 +12,18 @@ h1,h2,h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* and we can have rules that overlap other rules, both take effect */
-/* h1 {
-  letter-spacing: 1px;
-  word-spacing: 1px;
+and we can have rules that overlap other rules, both take effect
+h1 {
+  /* letter-spacing: 1px;
+  word-spacing: 1px; */
   font-size: 100%;
+  margin: 4px;
+  padding:4px;
+  border: solid 5px #6a3704;
+  background-color: #A3C9A8;
 }
 
-h2{
+/* h2{
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 100%;
@@ -31,14 +35,14 @@ h2{
 #content {
   margin: 4px;
   padding: 4px;
-  border: solid 1px rgb(230, 130, 130);
-  background-color: #eaeeec;
+  /* border: solid 1px rgb(230, 130, 130); */
+  /* background-color: #eaeeec; */
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 4px;
   margin-bottom: 4px;
-  border: dotted 5px #e98282;
+  border: solid 2px #6a3704;
   background-color: #A3C9A8;
 }
