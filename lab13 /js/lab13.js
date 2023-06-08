@@ -1,67 +1,35 @@
 
 /** 
-// index.js - Lab 9: Anon and Callbacks
+// index.js - Lab 13: Loops
 // Author: Salomi Galodamu
-// Date: May 17 2023
+// Date: June 2 2023
 **/
 
-// Beginning of Anon Function 
-
-function sortUserName(userName) {
-  // split the array
-  var nameArray = userName.split('');
-  console.log("nameArray =", nameArray);
-  // sort the array and join with a string
-  var nameArraySort = nameArray.sort();
-  console.log("nameArraySort =", nameArraySort);
-  var nameSorted = nameArraySort.join('');
-  console.log("nameSorted =", nameSorted);
-  //  userName.toLower().split("").sort().join("")
-  return nameSorted;
+//  "FizzBuzz" function 
+function fizzBuzz() {
+  // console.log("Yes, my function is running.");
+  // Loop through numbers 1 to 200
+  for (var i=1; i<=200; i++) {
+    // declare string
+    var str = '';
+    // number is a multiple of 3, print "Fizz!" (+= appends to the end of the sring)
+    if (i % 3 == 0) {
+      str += "Fizz";
+    }
+    // number is a multiple of 5,  print "Buzz!"
+    if (i % 5 == 0) {
+      str += "Buzz";
+    }
+    // is a multiple of 7, print "Boom!"
+    if (i % 7 == 0) {
+      str += "Boom";
+    }
+    // If the number is a multiple of more than one 3, 5 or 7,  print "FizzBuzz!" and so on.
+    if (str == '') {
+      str += i;
+    } 
+  
+    $("#output").append("<p>" + str + "</p>")
+  }
 }
-
-// button element
-var buttonEl = document.getElementById("my-button");
-console.log("button element:", buttonEl);
-
-// find the form element
-inputEl = document.getElementById("user-name");
-console.log("input element:", inputEl);
-
-// find output element
-outputEl = document.getElementById("output");
-console.log("output element:", outputEl);
-
-//change the text from Output to user's name
-var userName=inputEl.value;
-
-// Event listener to button
-buttonEl.addEventListener('click', function () {
-  console.log("username")
-  var sortedName = sortUserName(inputEl);
-  console.log("Results", sortedName);
-  document.getElementById("output").innerHTML = sortedName;
-  var userName=inputEl.value;
-});
-
-
-
-
-
-
-
-
-
-                
-                
-
-
-
-
-
-
-
- 
-    
-
-
+fizzBuzz();

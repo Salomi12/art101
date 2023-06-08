@@ -1,36 +1,42 @@
 
 /** 
-// index.js - Lab 9: Anon and Callbacks
+// index.js - Lab 14: Debugging
 // Author: Salomi Galodamu
 // Date: May 17 2023
 **/
 
 // Beginning of Anon Function 
 
-function isEven(x) {
-    return (x % 2 ==0);
+ // Loop through numbers 1 to 200, start to end
+ for (var i=1; i<=200; i++) {
+    
+  // If  a multiple of 3, print "Fizz!"
+  if (i % 3 == 0) {
+    console.log("Fizz");
+    $("#output").append("<div>" + str + "Fizz")
+  }
+  // If a multiple of 5, print "Buzz!"
+  if (i % 5 == 0) {
+    console.log("Fuzz");
+    $("#output").append("<div>" + str + "Buzz")
+  }
+  // If a multiple of 7, print "Boom!"
+  if (i % 7 == 0) {
+    console.log("Boom");
+    $("#output").append("<div>" + str + "Boom")
+  }
+  // If multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom. 
+  if (str == '') {
+    str += i;
+  } else {
+    str += "!";
+  }
+  debugger;
+  $("#output").append("<p>" + str + "</p>")
 }
 
-// test function
-console.log("Is 3 even?", isEven(3));
-console.log("Is 24 even?", isEven(24));
+fizzBuzz();
 
-array=[17,24,98,72,63,85]
-console.log("Array above",array);
-
-var result = array.map(isEven)
-console.log("Test my arrays evenness", result);
-
-var a = [17,24,98,72,63,85];
-
-function mapPlay(x) {
-  return Math.sqrt(x);
-
-}
-
-var results=a.map(mapPlay);
-
-console.log(results);
 
 
 

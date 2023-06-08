@@ -5,24 +5,15 @@
 .minor-section {
   padding: 2px;
   margin-bottom: 10px;
-  background-color: #7e75d6;
+  background-color: #ece556;
+  border:dotted 8px #57b3f8
 }
 
 h1 {
   text-align:center;
   color: rgb(76, 76, 158);
   font-size: 200%;
-
-}
-
-p {
-margin-top: 0;
-
-}
-
-p {
-
-border: none;
+  
 }
 p{
 font-family:'Times New Roman', Times, serif;

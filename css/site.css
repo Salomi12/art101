@@ -3,25 +3,25 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-/* body { */
-  /* background-color: #f4f7f9; */
-/* } */
+body {
+  background-color: #f4f7f9;
+}
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* and we can have rules that overlap other rules, both take effect
+and we can have rules that overlap other rules, both take effect
 h1 {
   /* letter-spacing: 1px;
   word-spacing: 1px; */
-  /* font-size: 100%;
+  font-size: 100%;
   margin: 4px;
   padding:4px;
-  border: solid 5px #6a3704;
-  background-color: #A3C9A8; */
-/* } */ 
+  border: solid 5px #a8e9;
+  background-color: #A3C9A8;
+}
 
 /* h2{
   letter-spacing: 5px;
@@ -32,17 +32,17 @@ h1 {
 
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-/* #content {
+#content {
   margin: 4px;
-  padding: 4px; */
+  padding: 4px;
   /* border: solid 1px rgb(230, 130, 130); */
   /* background-color: #eaeeec; */
-/* } */
+}
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-/* .minor-section {
+.minor-section {
   padding: 4px;
   margin-bottom: 4px;
-  border: solid 2px #6a3704;
+  /* border: solid 2px #6a3704; */
   background-color: #A3C9A8;
-} */
+}
