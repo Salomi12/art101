@@ -1,36 +1,22 @@
-
 /** 
-// index.js - Lab 9: Anon and Callbacks
+// index.js - Lab 11: Libraries and jQuery
 // Author: Salomi Galodamu
 // Date: May 17 2023
 **/
 
-// Beginning of Anon Function 
+//adding buttons using jQuery to each section: challenge,problems and results 
+// $(".challenge").append("<button id='my-button'>press me!</button>")
+// $(".problems").append("<button id='my-button'>press me!</button>")
+// $(".results").append("<button id='my-button'>press me!</button>")
 
-function isEven(x) {
-    return (x % 2 ==0);
-}
 
-// test function
-console.log("Is 3 even?", isEven(3));
-console.log("Is 24 even?", isEven(24));
+// added buttons to sections above with highlight element
+$(".sectionbox").append("<button class='highlight-button'>press me</button>");
 
-array=[17,24,98,72,63,85]
-console.log("Array above",array);
-
-var result = array.map(isEven)
-console.log("Test my arrays evenness", result);
-
-var a = [17,24,98,72,63,85];
-
-function mapPlay(x) {
-  return Math.sqrt(x);
-
-}
-
-var results=a.map(mapPlay);
-
-console.log(results);
+//click handler to each section of the page
+$(".highlight-button").click(function(){
+  $(this).parent().toggleClass("special");
+})
 
 
 

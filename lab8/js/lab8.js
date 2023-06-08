@@ -1,6 +1,5 @@
-
 /** 
-// index.js - Lab 9: Anon and Callbacks
+// index.js - Lab 8: Anon and Callbacks
 // Author: Salomi Galodamu
 // Date: May 17 2023
 **/
