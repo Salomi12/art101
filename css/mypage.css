@@ -3,7 +3,7 @@
 h1{ padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    /* background-color: #DDD8C4; */
 }
 
 /* .minor-section {
@@ -23,7 +23,7 @@ p{
 }
 
 body {
-    background-color:lightpink;
+    /* background-color:lightpink; */
   } 
 
 h2{ 
