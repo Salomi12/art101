@@ -35,8 +35,8 @@ h2{
 #content {
   margin: 4px;
   padding: 4px;
-  border: solid 1px rgb(230, 130, 130); 
-  background-color: #eaeeec;
+  /* border: solid 1px rgb(230, 130, 130); 
+  background-color: #eaeeec; */
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
