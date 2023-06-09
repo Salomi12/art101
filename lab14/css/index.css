@@ -21,29 +21,31 @@ h1 {
 
 }
 
-#debugImg {
+/* #debugImg {
   max-width: 40%;
   display: block;
 }
 
-#newlab2Img {
+#lab2Img {
   max-width: 40%;
-  display: block;
+  display: block; */
+/* } */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
 }
 
-/* p {
-margin-top: 0;
-
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-p {
 
-border: none;
-}
-p{
-font-family:'Times New Roman', Times, serif;
-
-} */
 
 
 
