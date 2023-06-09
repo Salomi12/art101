@@ -2,32 +2,29 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
+#background {
+  background-image: url("../img/backgroundcat.png");
+  background-size:cover;
+  background-position:center;
+}
+
 .minor-section {
   padding: 2px;
   margin-bottom: 10px;
-  background-color: #7e75d6;
+  background-color: #cac7e3;
 }
 
 h1 {
   text-align:center;
-  color: rgb(76, 76, 158);
+  color: rgb(12, 12, 132);
   font-size: 200%;
+  padding: 2px;
+  margin-bottom: 10px;
+  background-color: hsl(245, 22%, 80%);
 
 }
 
-p {
-margin-top: 0;
 
-}
-
-p {
-
-border: none;
-}
-p{
-font-family:'Times New Roman', Times, serif;
-margin-left:10px  
-}
 
 
 
